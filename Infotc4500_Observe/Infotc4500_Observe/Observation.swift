@@ -7,3 +7,22 @@
 //
 
 import Foundation
+import UIKit
+
+class Observation{
+    
+    var image: UIImage
+    var name: String
+    var color: String
+    var habitat: String
+    var funFact: String
+    
+    init(image Image: UIImage, name Name: String, color Color: String, habitat Habitat: String, funFact FunFact: String) {
+        image = Image
+        name = Name
+        color = Color
+        habitat = Habitat
+        funFact = FunFact
+    }
+    
+}
