@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0EFE63206181BB00516365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EFE62206181BB00516365 /* AppDelegate.swift */; };
+		6F0EFE65206181BB00516365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EFE64206181BB00516365 /* ViewController.swift */; };
+		6F0EFE68206181BB00516365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0EFE66206181BB00516365 /* Main.storyboard */; };
+		6F0EFE6B206181BB00516365 /* Infotc4500_Observe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EFE69206181BB00516365 /* Infotc4500_Observe.xcdatamodeld */; };
+		6F0EFE6D206181BB00516365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0EFE6C206181BB00516365 /* Assets.xcassets */; };
+		6F0EFE70206181BB00516365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0EFE6E206181BB00516365 /* LaunchScreen.storyboard */; };
+		6F0EFE7B206181BB00516365 /* Infotc4500_ObserveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EFE7A206181BB00516365 /* Infotc4500_ObserveTests.swift */; };
+		6F0EFE86206181BB00516365 /* Infotc4500_ObserveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EFE85206181BB00516365 /* Infotc4500_ObserveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F0EFE77206181BB00516365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0EFE57206181BB00516365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0EFE5E206181BB00516365;
+			remoteInfo = Infotc4500_Observe;
+		};
+		6F0EFE82206181BB00516365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0EFE57206181BB00516365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0EFE5E206181BB00516365;
+			remoteInfo = Infotc4500_Observe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0EFE5F206181BB00516365 /* Infotc4500_Observe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infotc4500_Observe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0EFE62206181BB00516365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F0EFE64206181BB00516365 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F0EFE67206181BB00516365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F0EFE6A206181BB00516365 /* Infotc4500_Observe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Infotc4500_Observe.xcdatamodel; sourceTree = "<group>"; };
+		6F0EFE6C206181BB00516365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F0EFE6F206181BB00516365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F0EFE71206181BB00516365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0EFE76206181BB00516365 /* Infotc4500_ObserveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Infotc4500_ObserveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0EFE7A206181BB00516365 /* Infotc4500_ObserveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infotc4500_ObserveTests.swift; sourceTree = "<group>"; };
+		6F0EFE7C206181BB00516365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0EFE81206181BB00516365 /* Infotc4500_ObserveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Infotc4500_ObserveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0EFE85206181BB00516365 /* Infotc4500_ObserveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infotc4500_ObserveUITests.swift; sourceTree = "<group>"; };
+		6F0EFE87206181BB00516365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0EFE5C206181BB00516365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0EFE73206181BB00516365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0EFE7E206181BB00516365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0EFE56206181BB00516365 = {
+			isa = PBXGroup;
+			children = (
+				6F0EFE61206181BB00516365 /* Infotc4500_Observe */,
+				6F0EFE79206181BB00516365 /* Infotc4500_ObserveTests */,
+				6F0EFE84206181BB00516365 /* Infotc4500_ObserveUITests */,
+				6F0EFE60206181BB00516365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0EFE60206181BB00516365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0EFE5F206181BB00516365 /* Infotc4500_Observe.app */,
+				6F0EFE76206181BB00516365 /* Infotc4500_ObserveTests.xctest */,
+				6F0EFE81206181BB00516365 /* Infotc4500_ObserveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0EFE61206181BB00516365 /* Infotc4500_Observe */ = {
+			isa = PBXGroup;
+			children = (
+				6F0EFE62206181BB00516365 /* AppDelegate.swift */,
+				6F0EFE64206181BB00516365 /* ViewController.swift */,
+				6F0EFE66206181BB00516365 /* Main.storyboard */,
+				6F0EFE6C206181BB00516365 /* Assets.xcassets */,
+				6F0EFE6E206181BB00516365 /* LaunchScreen.storyboard */,
+				6F0EFE71206181BB00516365 /* Info.plist */,
+				6F0EFE69206181BB00516365 /* Infotc4500_Observe.xcdatamodeld */,
+			);
+			path = Infotc4500_Observe;
+			sourceTree = "<group>";
+		};
+		6F0EFE79206181BB00516365 /* Infotc4500_ObserveTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0EFE7A206181BB00516365 /* Infotc4500_ObserveTests.swift */,
+				6F0EFE7C206181BB00516365 /* Info.plist */,
+			);
+			path = Infotc4500_ObserveTests;
+			sourceTree = "<group>";
+		};
+		6F0EFE84206181BB00516365 /* Infotc4500_ObserveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0EFE85206181BB00516365 /* Infotc4500_ObserveUITests.swift */,
+				6F0EFE87206181BB00516365 /* Info.plist */,
+			);
+			path = Infotc4500_ObserveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0EFE5E206181BB00516365 /* Infotc4500_Observe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0EFE8A206181BB00516365 /* Build configuration list for PBXNativeTarget "Infotc4500_Observe" */;
+			buildPhases = (
+				6F0EFE5B206181BB00516365 /* Sources */,
+				6F0EFE5C206181BB00516365 /* Frameworks */,
+				6F0EFE5D206181BB00516365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Infotc4500_Observe;
+			productName = Infotc4500_Observe;
+			productReference = 6F0EFE5F206181BB00516365 /* Infotc4500_Observe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F0EFE75206181BB00516365 /* Infotc4500_ObserveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0EFE8D206181BB00516365 /* Build configuration list for PBXNativeTarget "Infotc4500_ObserveTests" */;
+			buildPhases = (
+				6F0EFE72206181BB00516365 /* Sources */,
+				6F0EFE73206181BB00516365 /* Frameworks */,
+				6F0EFE74206181BB00516365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0EFE78206181BB00516365 /* PBXTargetDependency */,
+			);
+			name = Infotc4500_ObserveTests;
+			productName = Infotc4500_ObserveTests;
+			productReference = 6F0EFE76206181BB00516365 /* Infotc4500_ObserveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F0EFE80206181BB00516365 /* Infotc4500_ObserveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0EFE90206181BB00516365 /* Build configuration list for PBXNativeTarget "Infotc4500_ObserveUITests" */;
+			buildPhases = (
+				6F0EFE7D206181BB00516365 /* Sources */,
+				6F0EFE7E206181BB00516365 /* Frameworks */,
+				6F0EFE7F206181BB00516365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0EFE83206181BB00516365 /* PBXTargetDependency */,
+			);
+			name = Infotc4500_ObserveUITests;
+			productName = Infotc4500_ObserveUITests;
+			productReference = 6F0EFE81206181BB00516365 /* Infotc4500_ObserveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0EFE57206181BB00516365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "William Smith";
+				TargetAttributes = {
+					6F0EFE5E206181BB00516365 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6F0EFE75206181BB00516365 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F0EFE5E206181BB00516365;
+					};
+					6F0EFE80206181BB00516365 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F0EFE5E206181BB00516365;
+					};
+				};
+			};
+			buildConfigurationList = 6F0EFE5A206181BB00516365 /* Build configuration list for PBXProject "Infotc4500_Observe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F0EFE56206181BB00516365;
+			productRefGroup = 6F0EFE60206181BB00516365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0EFE5E206181BB00516365 /* Infotc4500_Observe */,
+				6F0EFE75206181BB00516365 /* Infotc4500_ObserveTests */,
+				6F0EFE80206181BB00516365 /* Infotc4500_ObserveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0EFE5D206181BB00516365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0EFE70206181BB00516365 /* LaunchScreen.storyboard in Resources */,
+				6F0EFE6D206181BB00516365 /* Assets.xcassets in Resources */,
+				6F0EFE68206181BB00516365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0EFE74206181BB00516365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0EFE7F206181BB00516365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0EFE5B206181BB00516365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0EFE6B206181BB00516365 /* Infotc4500_Observe.xcdatamodeld in Sources */,
+				6F0EFE65206181BB00516365 /* ViewController.swift in Sources */,
+				6F0EFE63206181BB00516365 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0EFE72206181BB00516365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0EFE7B206181BB00516365 /* Infotc4500_ObserveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0EFE7D206181BB00516365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0EFE86206181BB00516365 /* Infotc4500_ObserveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F0EFE78206181BB00516365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0EFE5E206181BB00516365 /* Infotc4500_Observe */;
+			targetProxy = 6F0EFE77206181BB00516365 /* PBXContainerItemProxy */;
+		};
+		6F0EFE83206181BB00516365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0EFE5E206181BB00516365 /* Infotc4500_Observe */;
+			targetProxy = 6F0EFE82206181BB00516365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F0EFE66206181BB00516365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0EFE67206181BB00516365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F0EFE6E206181BB00516365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0EFE6F206181BB00516365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0EFE88206181BB00516365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F0EFE89206181BB00516365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0EFE8B206181BB00516365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infotc4500_Observe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Infotc4500-Observe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F0EFE8C206181BB00516365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infotc4500_Observe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Infotc4500-Observe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F0EFE8E206181BB00516365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infotc4500_ObserveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Infotc4500-ObserveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infotc4500_Observe.app/Infotc4500_Observe";
+			};
+			name = Debug;
+		};
+		6F0EFE8F206181BB00516365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infotc4500_ObserveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Infotc4500-ObserveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infotc4500_Observe.app/Infotc4500_Observe";
+			};
+			name = Release;
+		};
+		6F0EFE91206181BB00516365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infotc4500_ObserveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Infotc4500-ObserveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Infotc4500_Observe;
+			};
+			name = Debug;
+		};
+		6F0EFE92206181BB00516365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infotc4500_ObserveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Infotc4500-ObserveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Infotc4500_Observe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0EFE5A206181BB00516365 /* Build configuration list for PBXProject "Infotc4500_Observe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0EFE88206181BB00516365 /* Debug */,
+				6F0EFE89206181BB00516365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0EFE8A206181BB00516365 /* Build configuration list for PBXNativeTarget "Infotc4500_Observe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0EFE8B206181BB00516365 /* Debug */,
+				6F0EFE8C206181BB00516365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0EFE8D206181BB00516365 /* Build configuration list for PBXNativeTarget "Infotc4500_ObserveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0EFE8E206181BB00516365 /* Debug */,
+				6F0EFE8F206181BB00516365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0EFE90206181BB00516365 /* Build configuration list for PBXNativeTarget "Infotc4500_ObserveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0EFE91206181BB00516365 /* Debug */,
+				6F0EFE92206181BB00516365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F0EFE69206181BB00516365 /* Infotc4500_Observe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F0EFE6A206181BB00516365 /* Infotc4500_Observe.xcdatamodel */,
+			);
+			currentVersion = 6F0EFE6A206181BB00516365 /* Infotc4500_Observe.xcdatamodel */;
+			path = Infotc4500_Observe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F0EFE57206181BB00516365 /* Project object */;
+}
